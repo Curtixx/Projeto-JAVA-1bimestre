@@ -15,7 +15,6 @@ public class Main {
         int x = 0;
         int num =0;
         while (x < QtdDias){
-            if(num >= args.length -1) System.exit(0);
             int totalDeGrupos = Integer.parseInt(args[num+1]);
             int totalDeAlunos = Integer.parseInt(args[num+2]);
             int pares = 0;
